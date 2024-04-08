@@ -1,0 +1,40 @@
+
+i
+java:S2095¼"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(Ò×Ë
+m
+java:S2095…"QUse try-with-resources or close this "AssetFileDescriptor" in a "finally" clause.(ëÉËÚüÿÿÿÿ
+h
+java:S2095»"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(çËÍÃ
+c
+java:S2095Ú"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ŠËÌî
+d	java:S1160"ORename this field "TAGG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÓİµ
+s	java:S116k"YRename this field "AUTHORITY_FILE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àêèõûÿÿÿÿ
+p	java:S116É"ZRename this field "AUTHORITY_FILE1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­“Ó¢
+q
+java:S3923?"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ÆíŒ´
+Q	java:S125S"<This block of commented-out lines of code should be removed.(¹Ê
+>	java:S108b")Either remove or fill this block of code.(ÿÙÉÎ
+R	java:S125"<This block of commented-out lines of code should be removed.(ã¶Ù¡
+f
+java:S2674¾"JCheck the return value of the "read" call to see how many bytes were read.(À»Ûëşÿÿÿÿ
+W	java:S125Ë"<This block of commented-out lines of code should be removed.(ê«ÌÜúÿÿÿÿ
+D	java:S108Ó")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ
+F
+java:S2093¤"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+d
+java:S4042à"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Áñõ
+W	java:S125¨"<This block of commented-out lines of code should be removed.(ğ²’–úÿÿÿÿ
+W	java:S125«"<This block of commented-out lines of code should be removed.(Ÿ¯…ñúÿÿÿÿ
+V	java:S899±";Do something with the "boolean" value returned by "delete".(Ò¦ˆ™øÿÿÿÿ
+j
+java:S4042±"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Ò¦ˆ™øÿÿÿÿ
+F
+java:S2093–"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+‰
+java:S1130ä"sRemove the declaration of thrown exception 'android.os.RemoteException', as it cannot be thrown from method's body.(¥•×$
+A
+java:S1172ä"+Remove this unused method parameter "view".(¥•×$
+Q	java:S125æ"<This block of commented-out lines of code should be removed.(Õ”®$
+R	java:S125‚"<This block of commented-out lines of code should be removed.(ü‚ë
+I
+java:S1144×"-Remove this unused private "readFile" method.(Ùóœ“úÿÿÿÿ

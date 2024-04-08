@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChildApplication</string>
+    <string name="hintText">Enter User Name</string>
+    <string name="heading">Content Provider In Android</string>
+    <string name="insertButtontext">Insert Data</string>
+    <string name="loadButtonText">Load Data</string>
+    <string name="updateButtonText">Update Data</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.childapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.myapp.ReadPermission" />
+    <uses-permission android:name="com.myapp.WritePermission" />
+    <uses-permission android:name="com.example.android.contentprovidersample.provider.READ_WRITE" />
+    <uses-permission android:name="com.example.storage.provider.READ_WRITE" />
+    <!--SSM Read Write permission-->
+    <uses-permission android:name="com.zebra.securestoragemanager.securecontentprovider.PERMISSION.WRITE" />
+    <uses-permission android:name="com.zebra.securestoragemanager.securecontentprovider.PERMISSION.READ" />
+
+    <queries>
+        <provider android:authorities="com.demo.user.provider" />
+        <provider android:authorities="com.example.android.contentprovidersample.provider" />
+        <provider android:authorities="com.example.storage.provider" />
+        <!--SSM authorities-->
+        <provider android:authorities="com.zebra.securestoragemanager.securecontentprovider" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChildApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <receiver android:name=".FileNotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.zebra.configFile.action.notify" />
+            </intent-filter>
+        </receiver>
+        <!--<activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>-->
+    </application>
+
+</manifest>

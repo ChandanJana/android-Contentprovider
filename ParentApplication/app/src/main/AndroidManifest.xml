@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.parentapplication">
+
+    <permission
+        android:name="com.myapp.ReadPermission"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.myapp.WritePermission"
+        android:protectionLevel="normal" />
+
+    <permission android:name="com.example.android.contentprovidersample.provider.READ_WRITE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParentApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.demo.user.provider"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.myapp.ReadPermission"
+            android:writePermission="com.myapp.WritePermission" />
+
+        <provider
+            android:name=".SampleContentProvider"
+            android:authorities="com.example.android.contentprovidersample.provider"
+            android:exported="true"
+            android:permission="com.example.android.contentprovidersample.provider.READ_WRITE"/>
+
+        <provider
+            android:name=".FileShareContentProvider"
+            android:authorities="com.example.parentapplication.provider"
+            android:exported="true"
+            android:permission="com.example.parentapplication.provider.READ_WRITE"/>
+
+
+        <!--<activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>-->
+    </application>
+
+</manifest>

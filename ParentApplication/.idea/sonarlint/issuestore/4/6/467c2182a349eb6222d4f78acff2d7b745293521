@@ -1,0 +1,19 @@
+
+d	java:S116)"ORename this field "TAGG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÓİµ
+Q	java:S125/"<This block of commented-out lines of code should be removed.(Ó–ƒê
+V	java:S1256"<This block of commented-out lines of code should be removed.(êõ»¶úÿÿÿÿ
+V	java:S1258"<This block of commented-out lines of code should be removed.(û±ŒÅşÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(¹™¾ãøÿÿÿÿ
+A
+java:S1172@"+Remove this unused method parameter "view".(‹Å÷ñ
+F
+java:S1172P"+Remove this unused method parameter "view".(æÈ²İúÿÿÿÿ
+Q	java:S125]"<This block of commented-out lines of code should be removed.(´ß…ò
+R	java:S125…"<This block of commented-out lines of code should be removed.(ØÒšŒ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(¡³É¬
+M
+java:S1068'"2Remove this unused "LOADER_CHEESES" private field.(ŸÃŒÿÿÿÿÿ
+>
+java:S1068)"(Remove this unused "TAGG" private field.(ËÓİµ
+O
+java:S1068|"4Remove this unused "mLoaderCallbacks" private field.(çÓÊÖøÿÿÿÿ

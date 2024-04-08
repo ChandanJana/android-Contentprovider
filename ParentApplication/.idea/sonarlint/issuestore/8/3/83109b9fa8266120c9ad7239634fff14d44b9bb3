@@ -1,0 +1,19 @@
+
+x
+java:S1104"]Make myContentObserver a static final constant or non-public and provide accessors if needed.(°½èŽþÿÿÿÿ
+R
+java:S1444"7Make this "public static myContentObserver" field final(°½èŽþÿÿÿÿ
+E
+java:S1874"/Remove this use of "Handler"; it is deprecated.(’Ú©Š
+J
+java:S1874"/Remove this use of "Handler"; it is deprecated.(°½èŽþÿÿÿÿ
+R
+java:S1854("7Remove this useless assignment to local variable "imm".( ‘ÕÓþÿÿÿÿ
+C
+java:S1481("(Remove this unused "imm" local variable.( ‘ÕÓþÿÿÿÿ
+V	java:S125)"<This block of commented-out lines of code should be removed.(Ô¯ßÀüÿÿÿÿ
+A
+java:S1172-"+Remove this unused method parameter "view".(‹Å÷ñ
+F
+java:S1172="+Remove this unused method parameter "view".(æÈ²Ýúÿÿÿÿ
+P	java:S125Z"<This block of commented-out lines of code should be removed.(¾¤ƒ:
